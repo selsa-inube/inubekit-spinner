@@ -1,3 +1,23 @@
+# v0.0.2 (Mon Feb 05 2024)
+
+#### ⚠️ Pushed to `main`
+
+- feat: add Spinner export to index.ts (carlos3k11@gmail.com)
+- feat: implement the distribution of the type definition (carlos3k11@gmail.com)
+- refactor: remove @storybook/addon-onboarding from .storybook/main.ts and package.json (carlos3k11@gmail.com)
+- feat: add Spinner component and dependencies (carlos3k11@gmail.com)
+- feat: eliminate unnecessary dependencies (carlos3k11@gmail.com)
+- feat: add rollupOptions to vite.config.ts (carlos3k11@gmail.com)
+- feat: update Storybook configuration (carlos3k11@gmail.com)
+- Initial commit ([@JanuarAsprilla](https://github.com/JanuarAsprilla))
+
+#### Authors: 2
+
+- Andres Babativa (carlos3k11@gmail.com)
+- Januar Asprilla  ([@JanuarAsprilla](https://github.com/JanuarAsprilla))
+
+---
+
 # v0.0.1 (Wed Jan 17 2024)
 
 #### ⚠️ Pushed to `main`
