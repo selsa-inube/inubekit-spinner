@@ -5,7 +5,7 @@ export type Appearance = keyof typeof inube.color.stroke;
 export const sizes = ["large", "medium", "small"] as const;
 export type Size = (typeof sizes)[number];
 
-const parameters = {
+export const parameters = {
   docs: {
     description: {
       component:
@@ -14,7 +14,7 @@ const parameters = {
   },
 };
 
-const props = {
+export const props = {
   size: {
     options: sizes,
     control: { type: "select" },
@@ -42,5 +42,3 @@ const props = {
     },
   },
 };
-
-export { props, parameters };
