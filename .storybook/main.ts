@@ -12,8 +12,12 @@ const config: StorybookConfig = {
     name: "@storybook/react-vite",
     options: {},
   },
+  core: {
+    disableTelemetry: true,
+  },
   docs: {
-    autodocs: "tag",
+    autodocs: true,
+    defaultName: "Documentation",
   },
 };
 export default config;
