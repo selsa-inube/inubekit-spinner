@@ -5,15 +5,18 @@ const config: StorybookConfig = {
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-onboarding",
     "@storybook/addon-interactions",
   ],
   framework: {
     name: "@storybook/react-vite",
     options: {},
   },
+  core: {
+    disableTelemetry: true,
+  },
   docs: {
-    autodocs: "tag",
+    autodocs: true,
+    defaultName: "Documentation",
   },
 };
 export default config;
