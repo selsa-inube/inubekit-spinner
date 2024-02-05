@@ -1,3 +1,20 @@
+# v1.0.1 (Mon Feb 05 2024)
+
+#### 🐛 Bug Fix
+
+- Adjust and publish `<Spinner />` in inubekit repo [#1](https://github.com/selsa-inube/inubekit-spinner/pull/1) ([@Andresbl123](https://github.com/Andresbl123))
+
+#### ⚠️ Pushed to `main`
+
+- feat: update component name in package.json (carlos3k11@gmail.com)
+
+#### Authors: 2
+
+- Andres ([@Andresbl123](https://github.com/Andresbl123))
+- Andres Babativa (carlos3k11@gmail.com)
+
+---
+
 # v0.0.2 (Mon Feb 05 2024)
 
 #### ⚠️ Pushed to `main`
