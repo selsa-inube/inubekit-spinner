@@ -16,7 +16,7 @@ export const sizes = {
   },
 };
 
-export const animationspinner = keyframes`
+const spinner = keyframes`
   0% {
     transform: rotate(0deg);
   }
@@ -27,18 +27,20 @@ export const animationspinner = keyframes`
 
 export const StyledSpinner = styled.div`
   display: inline-block;
-  animation: 0.8s linear infinite ${animationspinner};
+  animation: 0.8s linear infinite ${spinner};
   border: solid 4px;
-  border-color: ${({ theme, $type, $appearance }) =>
-    $type === "transparent"
+  border-color: ${({ theme, $transparent, $appearance }) =>
+    $transparent === true
       ? theme?.spinner?.[$appearance]?.transparent?.track?.color ||
         inube.spinner[$appearance].transparent.track.color
       : theme?.spinner?.[$appearance]?.solid?.track?.color ||
         inube.spinner[$appearance].solid.track.color};
-  border-bottom-color: ${({ $appearance, $type, theme }) =>
-    $appearance &&
-    (theme?.spinner?.[$appearance]?.transparent?.spin?.color ||
-      inube?.spinner[$appearance].solid?.spin?.color)};
+  border-bottom-color: ${({ $appearance, $transparent, theme }) =>
+    $appearance && $transparent
+      ? theme?.spinner?.[$appearance]?.transparent?.spin?.color ||
+        inube?.spinner[$appearance].transparent?.spin?.color
+      : theme?.spinner?.[$appearance]?.solid?.spin?.color ||
+        inube?.spinner[$appearance].solid?.spin?.color};
   border-radius: 50%;
   ${({ $size }) => $size && sizes[$size]}
   box-sizing: border-box;
