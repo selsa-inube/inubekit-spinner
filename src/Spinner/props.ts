@@ -1,6 +1,6 @@
 import { inube } from "@inubekit/foundations";
 
-export type Appearance = keyof typeof inube.color.stroke;
+export const Appearance = Object.keys(inube.spinner);
 
 export const sizes = ["large", "medium", "small"] as const;
 export type Size = (typeof sizes)[number];
@@ -25,7 +25,7 @@ export const props = {
     },
   },
   appearance: {
-    options: Object.keys(inube.color.stroke),
+    options: Appearance,
     control: { type: "select" },
     description: "colors used to identify the state of the component",
     table: {

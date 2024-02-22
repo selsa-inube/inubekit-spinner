@@ -3,7 +3,7 @@ import { StyledSpinner } from "./styles";
 
 export interface ISpinnerProps {
   size: Size;
-  appearance: Appearance;
+  appearance: typeof Appearance;
   transparent: boolean;
 }
 

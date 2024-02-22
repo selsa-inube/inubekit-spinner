@@ -29,16 +29,14 @@ export const StyledSpinner = styled.div`
   display: inline-block;
   animation: 0.8s linear infinite ${spinner};
   border: solid 4px;
-  border-color: ${({ $transparent, theme }) =>
+  border-color: ${({ theme, $transparent }) =>
     $transparent === true
-      ? theme?.color?.stroke?.spinner?.transparent ||
-        inube.color.stroke.spinner.transparent
-      : theme?.color?.stroke?.spinner?.regular ||
-        inube.color.stroke.spinner.regular};
+      ? theme?.spinner?.transparent?.color || inube.spinner.transparent.color
+      : theme?.spinner?.regular?.color || inube.spinner.regular.color};
   border-bottom-color: ${({ $appearance, theme }) =>
     $appearance &&
-    (theme?.color?.stroke?.[$appearance]?.regular ||
-      inube?.color?.stroke?.[$appearance]?.regular)};
+    (theme?.spinner?.[$appearance]?.color ||
+      inube?.spinner?.[$appearance]?.color)};
   border-radius: 50%;
   ${({ $size }) => $size && sizes[$size]}
   box-sizing: border-box;
