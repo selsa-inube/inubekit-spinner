@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import { inube } from "@inubekit/foundations";
 
-const sizes = {
+export const sizes = {
   large: {
     width: "40px",
     height: "40px",
@@ -16,7 +16,7 @@ const sizes = {
   },
 };
 
-const spinner = keyframes`
+export const animationspinner = keyframes`
   0% {
     transform: rotate(0deg);
   }
@@ -27,16 +27,18 @@ const spinner = keyframes`
 
 export const StyledSpinner = styled.div`
   display: inline-block;
-  animation: 0.8s linear infinite ${spinner};
+  animation: 0.8s linear infinite ${animationspinner};
   border: solid 4px;
-  border-color: ${({ theme, $transparent }) =>
-    $transparent === true
-      ? theme?.spinner?.transparent?.color || inube.spinner.transparent.color
-      : theme?.spinner?.regular?.color || inube.spinner.regular.color};
-  border-bottom-color: ${({ $appearance, theme }) =>
+  border-color: ${({ theme, $type, $appearance }) =>
+    $type === "transparent"
+      ? theme?.spinner?.[$appearance]?.transparent?.track?.color ||
+        inube.spinner[$appearance].transparent.track.color
+      : theme?.spinner?.[$appearance]?.solid?.track?.color ||
+        inube.spinner[$appearance].solid.track.color};
+  border-bottom-color: ${({ $appearance, $type, theme }) =>
     $appearance &&
-    (theme?.spinner?.[$appearance]?.color ||
-      inube?.spinner?.[$appearance]?.color)};
+    (theme?.spinner?.[$appearance]?.transparent?.spin?.color ||
+      inube?.spinner[$appearance].solid?.spin?.color)};
   border-radius: 50%;
   ${({ $size }) => $size && sizes[$size]}
   box-sizing: border-box;
