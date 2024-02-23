@@ -36,7 +36,7 @@ export const StyledSpinner = styled.div`
       : theme?.spinner?.[$appearance]?.solid?.track?.color ||
         inube.spinner[$appearance].solid.track.color};
   border-bottom-color: ${({ $appearance, $transparent, theme }) =>
-    $appearance && $transparent
+    $transparent === true
       ? theme?.spinner?.[$appearance]?.transparent?.spin?.color ||
         inube?.spinner[$appearance].transparent?.spin?.color
       : theme?.spinner?.[$appearance]?.solid?.spin?.color ||

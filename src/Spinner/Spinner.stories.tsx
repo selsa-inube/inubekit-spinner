@@ -1,4 +1,4 @@
-import { Spinner, ISpinnerProps } from ".";
+import { Spinner, ISpinner } from ".";
 import { props, parameters } from "./props";
 
 const story = {
@@ -13,6 +13,6 @@ const story = {
   argTypes: props,
 };
 
-export const Default = (args: ISpinnerProps) => <Spinner {...args} />;
+export const Default = (args: ISpinner) => <Spinner {...args} />;
 
 export default story;
