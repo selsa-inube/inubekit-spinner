@@ -1,9 +1,9 @@
-import { Size, Appearance } from "./props";
+import { Size, Appearances } from "./props";
 import { StyledSpinner } from "./styles";
 
 export interface ISpinner {
   size: Size;
-  appearance: Appearance;
+  appearance: Appearances;
   transparent: boolean;
 }
 

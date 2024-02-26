@@ -7,7 +7,7 @@ export const appearances = [
   "dark",
   "light",
 ] as const;
-export type Appearance = (typeof appearances)[number];
+export type Appearances = (typeof appearances)[number];
 
 export const sizes = ["large", "medium", "small"] as const;
 export type Size = (typeof sizes)[number];
