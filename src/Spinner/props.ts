@@ -1,4 +1,4 @@
-export const appearance = [
+export const appearances = [
   "primary",
   "success",
   "warning",
@@ -7,7 +7,7 @@ export const appearance = [
   "dark",
   "light",
 ] as const;
-export type Appearance = (typeof appearance)[number];
+export type Appearance = (typeof appearances)[number];
 
 export const sizes = ["large", "medium", "small"] as const;
 export type Size = (typeof sizes)[number];
@@ -32,7 +32,7 @@ export const props = {
     },
   },
   appearance: {
-    options: appearance,
+    options: appearances,
     control: { type: "select" },
     description: "colors used to identify the state of the component",
     table: {
