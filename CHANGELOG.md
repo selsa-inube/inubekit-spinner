@@ -1,3 +1,25 @@
+# v1.1.0 (Tue Feb 27 2024)
+
+#### 🚀 Enhancement
+
+- Refactoring the component to use the new token structure [#3](https://github.com/selsa-inube/inubekit-spinner/pull/3) ([@JanuarAsprilla](https://github.com/JanuarAsprilla))
+
+#### 🐛 Bug Fix
+
+- correct implementation of package in npm [#2](https://github.com/selsa-inube/inubekit-spinner/pull/2) ([@Andresbl123](https://github.com/Andresbl123))
+
+#### ⚠️ Pushed to `main`
+
+- fix(package.json): adjust for release script ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 3
+
+- Andres ([@Andresbl123](https://github.com/Andresbl123))
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+- Januar Asprilla  ([@JanuarAsprilla](https://github.com/JanuarAsprilla))
+
+---
+
 # v1.0.1 (Mon Feb 05 2024)
 
 #### 🐛 Bug Fix
