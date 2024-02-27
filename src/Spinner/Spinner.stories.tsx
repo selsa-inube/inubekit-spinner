@@ -1,6 +1,4 @@
-import { presente } from "@inubekit/foundations";
-import { Spinner, ISpinnerProps } from ".";
-import { ThemeProvider } from "styled-components";
+import { Spinner, ISpinner } from ".";
 import { props, parameters } from "./props";
 
 const story = {
@@ -15,16 +13,6 @@ const story = {
   argTypes: props,
 };
 
-export const Default = (args: ISpinnerProps) => <Spinner {...args} />;
-
-const theme = {
-  ...presente,
-};
-
-export const Themed = (args: ISpinnerProps) => (
-  <ThemeProvider theme={theme}>
-    <Spinner {...args} />
-  </ThemeProvider>
-);
+export const Default = (args: ISpinner) => <Spinner {...args} />;
 
 export default story;
