@@ -5,6 +5,7 @@ export const appearances = [
   "danger",
   "help",
   "dark",
+  "gray",
   "light",
 ] as const;
 export type Appearances = (typeof appearances)[number];
