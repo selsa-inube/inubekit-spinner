@@ -1,3 +1,19 @@
+# v1.2.0 (Mon Mar 04 2024)
+
+#### 🚀 Enhancement
+
+- Extend component to support gray appearance [#5](https://github.com/selsa-inube/inubekit-spinner/pull/5) ([@cmarin001](https://github.com/cmarin001))
+
+#### 📝 Documentation
+
+- Publish new version 1.1.0 [#4](https://github.com/selsa-inube/inubekit-spinner/pull/4) ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v1.1.0 (Tue Feb 27 2024)
 
 #### 🚀 Enhancement
