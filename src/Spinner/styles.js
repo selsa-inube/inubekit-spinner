@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import { inube } from "@inubekit/foundations";
 
-export const sizes = {
+const sizes = {
   large: {
     width: "40px",
     height: "40px",
@@ -25,7 +25,7 @@ const spinner = keyframes`
   }
 `;
 
-export const StyledSpinner = styled.div`
+const StyledSpinner = styled.div`
   display: inline-block;
   animation: 0.8s linear infinite ${spinner};
   border: solid 4px;
@@ -45,3 +45,5 @@ export const StyledSpinner = styled.div`
   ${({ $size }) => $size && sizes[$size]}
   box-sizing: border-box;
 `;
+
+export { StyledSpinner, sizes };

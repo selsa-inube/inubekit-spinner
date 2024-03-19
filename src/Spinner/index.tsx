@@ -1,13 +1,13 @@
-import { Size, Appearances } from "./props";
+import { ISpinnerSize, ISpinnerAppearance } from "./props";
 import { StyledSpinner } from "./styles";
 
-export interface ISpinner {
-  size: Size;
-  appearance: Appearances;
+interface ISpinner {
+  size: ISpinnerSize;
+  appearance: ISpinnerAppearance;
   transparent: boolean;
 }
 
-export const Spinner = (props: ISpinner) => {
+const Spinner = (props: ISpinner) => {
   const {
     size = "medium",
     appearance = "primary",
@@ -22,3 +22,6 @@ export const Spinner = (props: ISpinner) => {
     />
   );
 };
+
+export { Spinner };
+export type { ISpinner };
