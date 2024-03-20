@@ -1,22 +1,4 @@
-# v1.2.0 (Wed Mar 20 2024)
-
-#### 🚀 Enhancement
-
-- Adjust and export interfaces [#7](https://github.com/selsa-inube/inubekit-spinner/pull/7) ([@cmarin001](https://github.com/cmarin001))
-- Extend component to support gray appearance [#5](https://github.com/selsa-inube/inubekit-spinner/pull/5) ([@cmarin001](https://github.com/cmarin001))
-
-#### 📝 Documentation
-
-- Publish new version 1.2.0 [#6](https://github.com/selsa-inube/inubekit-spinner/pull/6) ([@cmarin001](https://github.com/cmarin001))
-- Publish new version 1.1.0 [#4](https://github.com/selsa-inube/inubekit-spinner/pull/4) ([@cmarin001](https://github.com/cmarin001))
-
-#### Authors: 1
-
-- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
-
----
-
-# v1.2.0 (Wed Mar 20 2024)
+# v2.0.0 (Wed Mar 20 2024)
 
 #### 🚀 Enhancement
 
@@ -68,7 +50,7 @@
 
 - Andres ([@Andresbl123](https://github.com/Andresbl123))
 - Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
-- Januar Asprilla  ([@JanuarAsprilla](https://github.com/JanuarAsprilla))
+- Januar Asprilla ([@JanuarAsprilla](https://github.com/JanuarAsprilla))
 
 ---
 
@@ -105,7 +87,7 @@
 #### Authors: 2
 
 - Andres Babativa (carlos3k11@gmail.com)
-- Januar Asprilla  ([@JanuarAsprilla](https://github.com/JanuarAsprilla))
+- Januar Asprilla ([@JanuarAsprilla](https://github.com/JanuarAsprilla))
 
 ---
 
