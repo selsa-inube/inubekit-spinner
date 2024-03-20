@@ -13,6 +13,7 @@ const story = {
   argTypes: props,
 };
 
-export const Default = (args: ISpinner) => <Spinner {...args} />;
+const Default = (args: ISpinner) => <Spinner {...args} />;
 
+export { Default };
 export default story;

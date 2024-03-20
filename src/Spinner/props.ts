@@ -1,4 +1,4 @@
-export const appearances = [
+const appearances = [
   "primary",
   "success",
   "warning",
@@ -8,12 +8,12 @@ export const appearances = [
   "gray",
   "light",
 ] as const;
-export type Appearances = (typeof appearances)[number];
+type ISpinnerAppearance = (typeof appearances)[number];
 
-export const sizes = ["large", "medium", "small"] as const;
-export type Size = (typeof sizes)[number];
+const sizes = ["large", "medium", "small"] as const;
+type ISpinnerSize = (typeof sizes)[number];
 
-export const parameters = {
+const parameters = {
   docs: {
     description: {
       component:
@@ -22,7 +22,7 @@ export const parameters = {
   },
 };
 
-export const props = {
+const props = {
   size: {
     options: sizes,
     control: { type: "select" },
@@ -50,3 +50,6 @@ export const props = {
     },
   },
 };
+
+export { props, parameters };
+export type { ISpinnerAppearance, ISpinnerSize };
