@@ -1,3 +1,3 @@
 export { Spinner } from "./Spinner";
 export type { ISpinner } from "./Spinner";
-export type { ISpinnerSize, ISpinnerAppearances } from "./Spinner/props";
+export type { ISpinnerSize, ISpinnerAppearance } from "./Spinner/props";
