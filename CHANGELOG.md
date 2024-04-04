@@ -1,3 +1,23 @@
+# v2.0.1 (Thu Apr 04 2024)
+
+#### 🐛 Bug Fix
+
+- Add auto publish [#10](https://github.com/selsa-inube/inubekit-spinner/pull/10) ([@cmarin001](https://github.com/cmarin001))
+
+#### 📝 Documentation
+
+- Publish new version 2.0.0 [#8](https://github.com/selsa-inube/inubekit-spinner/pull/8) ([@cmarin001](https://github.com/cmarin001))
+
+#### 🔩 Dependency Updates
+
+- Update inubekit/spinner to storybook v8 [#9](https://github.com/selsa-inube/inubekit-spinner/pull/9) ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v2.0.0 (Wed Mar 20 2024)
 
 #### 🚀 Enhancement
