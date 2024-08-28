@@ -1,3 +1,15 @@
+# v2.7.1 (Wed Aug 28 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Update index.tsx ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v2.7.0 (Wed Aug 21 2024)
 
 #### 🚀 Enhancement
