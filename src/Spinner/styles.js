@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import { inube } from "@inubekit/foundations";
+import { tokens } from "./Tokens/tokens";
 
 const sizes = {
   large: {
@@ -32,15 +32,15 @@ const StyledSpinner = styled.div`
   border-color: ${({ theme, $transparent, $appearance }) =>
     $transparent === true
       ? theme?.spinner?.[$appearance]?.transparent?.track?.color ||
-        inube.spinner[$appearance].transparent.track.color
+        tokens[$appearance].transparent.track.color
       : theme?.spinner?.[$appearance]?.solid?.track?.color ||
-        inube.spinner[$appearance].solid.track.color};
+        tokens[$appearance].solid.track.color};
   border-bottom-color: ${({ $appearance, $transparent, theme }) =>
     $transparent === true
       ? theme?.spinner?.[$appearance]?.transparent?.spin?.color ||
-        inube?.spinner[$appearance].transparent?.spin?.color
+        tokens[$appearance].transparent?.spin?.color
       : theme?.spinner?.[$appearance]?.solid?.spin?.color ||
-        inube?.spinner[$appearance].solid?.spin?.color};
+        tokens[$appearance].solid?.spin?.color};
   border-radius: 50%;
   ${({ $size }) => $size && sizes[$size]}
   box-sizing: border-box;
