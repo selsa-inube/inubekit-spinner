@@ -1,3 +1,15 @@
+# v2.12.2 (Thu Dec 12 2024)
+
+#### 🐛 Bug Fix
+
+- Add TOKENS.md document [#23](https://github.com/selsa-inube/inubekit-spinner/pull/23) ([@CristianRojas-47](https://github.com/CristianRojas-47))
+
+#### Authors: 1
+
+- Cristian Rojas ([@CristianRojas-47](https://github.com/CristianRojas-47))
+
+---
+
 # v2.12.1 (Thu Oct 10 2024)
 
 #### ⚠️ Pushed to `main`
